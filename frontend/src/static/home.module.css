@@ -1,0 +1,41 @@
+/* ตั้งค่าภาพพื้นหลัง */
+body {
+  
+  background-size: cover; /* ให้ภาพขยายครอบคลุมทั้งหน้า */
+  background-position: center center; /* จัดตำแหน่งภาพที่กลางหน้า */
+  background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+  height: 100vh; /* ให้ภาพพื้นหลังเต็มหน้าจอ */
+  margin: 0; /* ลบ margin ของ body */
+  display: flex; /* ใช้ flexbox ในการจัดการ layout */
+  align-items: center; /* จัดให้เนื้อหากลางแนวนอน */
+  justify-content: center; /* จัดให้เนื้อหากลางแนวตั้ง */
+  color: #fff; /* กำหนดสีตัวอักษรเป็นขาวเพื่อให้เด่น */
+}
+
+.container {
+  text-align: center; /* จัดให้อักษรอยู่กลาง */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังครึ่งโปร่งใส */
+  border-radius: 10px; /* มุมมน */
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: 15px;
+  margin: 25px 0px;
+  width: 290px;
+  font-size: 15px;
+  background: #DE5499;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px #E99F4C;
+}

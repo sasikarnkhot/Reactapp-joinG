@@ -1,0 +1,63 @@
+/* ใช้ฟอนต์ Poppins ในทั้งหมด */
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* เพิ่มสไตล์สำหรับ navbar */
+.navbar {
+  background-color: #f8f9fa; /* เปลี่ยนเป็นสีที่เข้ากับฟอนต์ */
+}
+
+.navbarBrand {
+  font-size: 2rem; /* ปรับขนาดฟอนต์ */
+  font-weight: 600;
+  color: #b48dba; /* ใช้สีชมพูพาสเทล */
+}
+
+.navLink {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c757d; /* สีลิงก์ */
+  margin-left: 20px;
+  text-transform: uppercase; /* ทำให้ข้อความเป็นตัวพิมพ์ใหญ่ */
+}
+
+.navLink:hover {
+  color: #b48dba; /* สีลิงก์เมื่อ hover */
+  text-decoration: none;
+}
+
+/* ปุ่ม */
+.btnPrimary {
+  background-color: #f8cff5 !important;
+  border-color: #b48dba !important;
+  font-weight: 500; /* เพิ่มความหนาของฟอนต์ */
+}
+
+.btnPrimary:hover {
+  background-color: #9d7d9b !important;
+}
+
+.btnSuccess {
+  background-color: #c6efdf !important;
+  border-color: #b3e7dc !important;
+  font-weight: 500;
+}
+
+.btnSuccess:hover {
+  background-color: #7fdb83 !important;
+}
+
+.btnDanger {
+  background-color: #edaee2 !important;
+  border-color: #f6d0d0 !important;
+  font-weight: 500;
+}
+
+.btnDanger:hover {
+  background-color: #d97777 !important;
+}
+

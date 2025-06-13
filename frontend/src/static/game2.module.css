@@ -1,0 +1,95 @@
+/* game2.module.css */
+.gameContainer {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #ff9800;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: #e68900;
+  transform: scale(1.1);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.win {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.lose {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.draw {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+.loading {
+  color: #ffffff;
+  font-style: italic;
+}
+
+.error {
+  color: #ff3333;
+  background: rgba(255, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.restartButton {
+  background: #03a9f4;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.restartButton:hover {
+  background: #0288d1;
+}
